@@ -18,6 +18,7 @@ public class StdController {
         return "heyyy";
     }
 
+    //check
     @PostMapping("/save")
     private Student savestudent(@RequestBody Student std){
         return s.savestudent(std);
